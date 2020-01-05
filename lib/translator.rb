@@ -1,4 +1,4 @@
-
+require 'yaml'
  def load_library()
    library = YAML.load_file('emoticons.yml')
    result = {"get_meaning" => {}, "get_emoticon" => {}}
